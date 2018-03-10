@@ -1,0 +1,23 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": "a freecodecamp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user883311/request-header-parser-microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/user883311/request-header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/user883311/request-header-parser-microservice#readme",
+  "dependencies": {
+    "os-locale": "^2.1.0",
+    "os-name": "^2.0.1"
+  }
+}
