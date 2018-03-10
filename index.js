@@ -11,8 +11,12 @@ const port = 3000;
     language	"en-US"
     software	"Macintosh; Intel Mac OS X 10.12; rv:60.0" */
 var resultObj = {};
-var netIntObj = os.networkInterfaces();
-resultObj.ipaddress = netIntObj.lo0[0].address;
+
+
+var n = os.networkInterfaces();
+var k = Object.keys(n);
+var j = n[k[0]][0].address;
+resultObj.ipaddress = j;
 
 var cpu = os.cpus()[0].model;
 var release = os.release();
