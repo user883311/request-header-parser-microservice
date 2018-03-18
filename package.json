@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/user883311/request-header-parser-microservice#readme",
   "dependencies": {
+    "detector": "^2.5.0",
     "os-locale": "^2.1.0",
-    "os-name": "^2.0.1"
+    "os-name": "^2.0.1",
+    "systeminformation": "^3.37.7"
   }
 }

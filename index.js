@@ -3,8 +3,6 @@ const os = require("os");
 const osName = require('os-name');
 const osLocale = require('os-locale');
 
-// const hostname = '127.0.0.1';
-// const hostname = 'request-header-parser-883311.herokuapp.com';
 const port = process.env.PORT || 3000;
 
 /* GETTING SYSTEM INFORMATION
@@ -24,7 +22,7 @@ var release = os.release();
 var osRel = osName(os.platform(), os.release());
 resultObj.software = cpu + " " + osRel + " " + release;
 
-osLocale().then(locale   => {
+osLocale().then(locale => {
     resultObj.language = locale;
     console.log(resultObj);
 });
