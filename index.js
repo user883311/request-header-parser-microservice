@@ -3,7 +3,7 @@ const os = require("os");
 const osName = require('os-name');
 const osLocale = require('os-locale');
 
-const hostname = '127.0.0.1';
+// const hostname = '127.0.0.1';
 // const hostname = 'request-header-parser-883311.herokuapp.com';
 const port = process.env.PORT || 3000;
 
@@ -36,5 +36,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    // console.log(`Server running at http://${hostname}:${port}/`);
 });
