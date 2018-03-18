@@ -4,13 +4,17 @@
   "description": "a freecodecamp project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/user883311/request-header-parser-microservice.git"
   },
-  "author": "",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "author": "user883311",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/user883311/request-header-parser-microservice/issues"
