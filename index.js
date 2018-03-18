@@ -4,7 +4,7 @@ const osName = require('os-name');
 const osLocale = require('os-locale');
 
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 /* GETTING SYSTEM INFORMATION
     ipaddress	"121.7.3.9"

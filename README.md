@@ -5,4 +5,6 @@ Objective: Build a full stack JavaScript app that is functionally similar to thi
 
 User Story: I can get the IP address, language and operating system for my browser.
 
-Sourc: https://www.freecodecamp.org/challenges/request-header-parser-microservice
+Source: https://www.freecodecamp.org/challenges/request-header-parser-microservice
+
+Project is live at https://request-header-parser-microservice-user883311.glitch.me/. 
