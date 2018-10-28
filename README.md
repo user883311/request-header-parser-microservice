@@ -1,14 +1,12 @@
 # Request Header Parser Microservice
-## a freecodecamp project 
-
-Objective: Build a full stack JavaScript app that is functionally similar to this: https://cryptic-ridge-9197.herokuapp.com/api/whoami/ and deploy it to Glitch. 
 
 User Story: I can get the IP address, language and operating system for my browser.
 
-Source: https://www.freecodecamp.org/challenges/request-header-parser-microservice
+## Usage
+Open https://request-header-parser-883311.herokuapp.com/. 
 
-Project is live at https://request-header-parser-microservice-user883311.glitch.me/. 
+Example response: 
+`{"ipaddress":"127.0.0.1","software":"Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz Linux 4.4 4.4.0-1027-aws","language":"POSIX"}`
 
 
-https://request-header-parser-883311.herokuapp.com/
 https://git.heroku.com/request-header-parser-883311.git
